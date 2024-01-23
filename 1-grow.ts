@@ -11,8 +11,6 @@
 // 	return result;
 // }
 
-export const grow = (arr: number[]): number => {
-	return arr.reduce((acc, curr) => acc * curr);
-};
+const grow = (arr: number[]) => arr.reduce((acc, curr) => acc * curr);
 
 console.log(grow([1, 2, 3, 4]));
